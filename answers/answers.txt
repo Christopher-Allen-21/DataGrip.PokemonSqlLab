@@ -45,6 +45,10 @@ Part 3:
   	 GROUP BY primary_type
 	 ORDER BY primary_type;
 -How many pokemon at level 100 does each trainer with at least one level 100 pokemon 
-	-have? (Hint: your query should not display a trainer
+ have? (Hint: your query should not display a trainer)
+	-
 -How many pokemon only belong to one trainer and no other?
 	-
+
+
+Part 4:
