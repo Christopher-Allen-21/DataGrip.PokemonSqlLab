@@ -36,10 +36,10 @@ Part 3:
 	 FROM pokemons
 	 JOIN types
 	 ON pokemons.secondary_Type = types.id
-	 WHERE types.name = 'Poison';
+	 WHERE types.name = 'Poison'; //31
 -What are all the primary types and how many pokemon have that type?
 	-
--How many pokemon at level 100 does each trainer with at least one level 100 pokemone 
+-How many pokemon at level 100 does each trainer with at least one level 100 pokemon 
 	-have? (Hint: your query should not display a trainer
 -How many pokemon only belong to one trainer and no other?
 	-
