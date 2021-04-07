@@ -54,7 +54,10 @@ Part 3:
     	 WHERE pokelevel = 100)
 	 GROUP BY trainerID;
 -How many pokemon only belong to one trainer and no other?
-	-
+	-SELECT pokemons.name, COUNT(pokemon_id)
+	 FROM pokemon_trainer
+	 JOIN pokemons
+	 ON pokemon_trainer.pokemon_id = pokemons.id
+	 GROUP BY pokemon_id
+	 HAVING COUNT(pokemon_id) = 1;
 
-
-Part 4:
